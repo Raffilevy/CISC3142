@@ -1,0 +1,47 @@
+
+Script started, output file is typescript
+Raffi@Yaels-MacBook-Pro Excersize3 % git add answers.txt answers.md markdown.md gitCommands.md 
+Raffi@Yaels-MacBook-Pro Excersize3 % git commit gitCommands.md answers.txt markdown.md answers.md -m commiting files
+error: pathspec 'files' did not match any file(s) known to git
+Raffi@Yaels-MacBook-Pro Excersize3 % git commit gitCommands.md answers.txt markdown.md answers.md -m "commiting files"
+[master 527259c] commiting files
+ Committer: Raffi Levy <Raffi@Yaels-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 145 insertions(+)
+ create mode 100644 Excersize3/answers.md
+ create mode 100644 Excersize3/answers.txt
+ create mode 100644 Excersize3/gitCommands.md
+ create mode 100644 Excersize3/markdown.md
+Raffi@Yaels-MacBook-Pro Excersize3 % git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Raffi@Yaels-MacBook-Pro Excersize3 % exit    
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...       1 completed.
+
+Script done, output file is typescript
+LS
+answers.md	answers.txt	gitCommands.md	markdown.md	typescript
+Script started, output file is typescript
+Restored session: Wed Sep 21 21:08:46 EDT 2022
