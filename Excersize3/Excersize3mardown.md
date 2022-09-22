@@ -43,7 +43,8 @@ std::cout << i << " " << sum << std::endl; \\ 100 45```
 2.17) 
 ```int i, &ri = i;
 i = 5; ri = 10;
-std::cout << i << " " << ri << std::endl; \\ 10 10```
+std::cout << i << " " << ri << std::endl; \\ 10 10
+```
 
 2.27) (a) invalid - nonconst reference cannot be initialized to a literal
 (b - e) good. (f) invalid - const stated twice, and it must be initialized when defined.
