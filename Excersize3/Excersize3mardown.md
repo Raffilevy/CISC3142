@@ -19,12 +19,6 @@ std::cout << i - i2 << std::endl; \\ -32
 std::cout << i - u << std::endl; \\ 0
 std::cout << u - i << std::endl; \\ 0
 ```
-32
-4294967264
-32
--32
-0
-0
 
 2.10) global_str = empty string object
 global_int = 0
