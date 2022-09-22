@@ -1,4 +1,5 @@
-| title.      | Description | 
+| git command      | Execution | 
 | ----------- | ----------- | 
-| Header      | Title | 
-| Paragraph   | Text |
+| track file      | git add | 
+| record changes   | git commit |
+| publish changes | git push |
