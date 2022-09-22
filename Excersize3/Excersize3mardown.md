@@ -10,6 +10,15 @@ for prinicpal i would use double to make sure its exactly accurate, and payment 
 use a float becuase money doesn't have quantums more than 2 significant digits anyway.
 
 2.3)
+'''unsigned u = 10, u2 = 42;
+std::cout << u2 - u << std::endl;
+std::cout << u - u2 << std::endl;
+int i = 10, i2 = 42;
+std::cout << i2 - i << std::endl;
+std::cout << i - i2 << std::endl;
+std::cout << i - u << std::endl;
+std::cout << u - i << std::endl;
+'''
 32
 4294967264
 32
