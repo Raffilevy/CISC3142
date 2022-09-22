@@ -1,22 +1,22 @@
 1) Headings - add number of # for header type: # = <h1></h1>, ##  <h2></h2>...
 
-2) Paragraphs (<p></p>) - just write the paragraph with a blank new line to distinguish
+2) Paragraphs - just write the paragraph with a blank new line to distinguish
 
-3) breakline (<br>) - add newline and continue to write (no blank new line)
+3) breakline - add newline and continue to write (no blank new line)
 
-4) Bold (<strong>) - add 2 ** or __ : **bold** __bold__
+4) Bold - add 2 ** or __ : **bold** __bold__
 
-5) Italic (<em>) - add 1 * or _ : *italic* _italic_
+5) Italic - add 1 * or _ : *italic* _italic_
 
 6) Both 4 and 5 - add 3 *** or ___ : ***both*** ___both___
 
-7) ordered lists (<ol><li></li></ol>) - 
+7) ordered lists  - 
 add number followed by period: 
 1. first
 2. second
 3. third
 
-8) Unordered lists (<ul><li></li></ul>) - use -, *, or + in front of each element:
+8) Unordered lists - use -, *, or + in front of each element:
 + first
 + second
 + third
