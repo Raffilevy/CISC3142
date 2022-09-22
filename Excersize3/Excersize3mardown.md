@@ -27,18 +27,24 @@ local_str = empty string object
 
 2.12) a, c, and d
 
-2.13) ```int i = 42;
+2.13) 
+```int i = 42;
 int main()
 {
 int i = 100;
 int j = i; \\ 100
-}```
+}
 
-2.14) yes: ```
+```
+
+2.14) yes:
+```
 int i = 100, sum = 0;
 for (int i = 0; i != 10; ++i)
 sum += i;
-std::cout << i << " " << sum << std::endl; \\ 100 45```
+std::cout << i << " " << sum << std::endl; \\ 100 45
+
+```
 
 2.17) 
 ```int i, &ri = i;
