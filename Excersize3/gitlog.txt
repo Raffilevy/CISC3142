@@ -1,11 +1,10 @@
-
 Script started, output file is typescript
-Raffi@Yaels-MacBook-Pro Excersize3 % git add answers.txt answers.md markdown.md gitCommands.md 
-Raffi@Yaels-MacBook-Pro Excersize3 % git commit gitCommands.md answers.txt markdown.md answers.md -m commiting files
-eror: pathspec 'files' did not match any file(s) known to git
-Raffi@Yaels-MacBook-Pro Excersize3 % git commit gitCommands.md answers.txt markdown.md answers.md -m "commiting files"
-[master 527259c] commiting files
- Committer: Raffi Levy <Raffi@Yaels-MacBook-Pro.local>
+Raffi@Galaxy-J7-Refine Excersize3 % git add Excersize3Answers.txt Excersize3mardown.md markdown.md gitCommands.md 
+Raffi@Galaxy-J7-Refine Excersize3 % git commit Excersize3Answers.txt Excersize3mardown.md markdown.md gitCommands.md
+Aborting commit due to empty commit message.
+Raffi@Galaxy-J7-Refine Excersize3 % git commit Excersize3Answers.txt Excersize3mardown.md markdown.md gitCommands.md -m "adding files"
+[main 4f14d5a] adding files
+ Committer: Raffi Levy <Raffi@Galaxy-J7-Refine.localdomain>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
@@ -18,30 +17,172 @@ After doing this, you may fix the identity used for this commit with:
 
     git commit --amend --reset-author
 
- 4 files changed, 145 insertions(+)
- create mode 100644 Excersize3/answers.md
- create mode 100644 Excersize3/answers.txt
- create mode 100644 Excersize3/gitCommands.md
- create mode 100644 Excersize3/markdown.md
-Raffi@Yaels-MacBook-Pro Excersize3 % git push
-fatal: No configured push destination.
-Either specify the URL from the command-line or configure a remote repository using
+ 4 files changed, 3 insertions(+), 2 deletions(-)
+Raffi@Galaxy-J7-Refine Excersize3 % git push
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 634 bytes | 634.00 KiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/Raffilevy/CISC3142.git
+   09d17be..4f14d5a  main -> main
+Raffi@Galaxy-J7-Refine Excersize3 % cat Excersize3Answers.txt
+2.1) An int is a 16bit integer, a long is a 32bit integer, and a short is a 16bit integer.
+short <= int
+A signed type represents postive or negative numbers, and unsigned type represent values
+that are >= 0.
+A float has a precision of 6 significant digits, a double has a precision of 10 significant digits.
+ 
+2.2) For rate i would use a float becuase it typically doesnt use more than really 2 or 3 significant digits.
+for prinicpal i would use double to make sure its exactly accurate, and payment i would 
+use a float becuase money doesn't have quantums more than 2 significant digits anyway.
 
-    git remote add <name> <url>
+2.3)
+32
+4294967264
+32
+-32
+0
+0
 
-and then push using the remote name
+2.10) global_str = empty string object
+global_int = 0
+local_int = undefined
+local_str = empty string object
 
-    git push <name>
+2.12) a, c, and d
 
-Raffi@Yaels-MacBook-Pro Excersize3 % exit    
+2.13) 100
+
+2.14) yes: 100 45
+
+2.17) 10 10
+
+2.27) (a) invalid - nonconst reference cannot be initialized to a literal
+(b - e) good. (f) invalid - const stated twice, and it must be initialized when defined.
+
+2.28) (a) invalid - * makes a pointer and a const pointer must be initialized
+(b) same as (a). (c) invalid - ic isn't initilized. 
+(d) same as (a). (e) good - initilized pointer to int p
+
+
+
+Raffi@Galaxy-J7-Refine Excersize3 % cat Excersize3Answers.md  
+cat: Excersize3Answers.md: No such file or directory
+Raffi@Galaxy-J7-Refine Excersize3 % cat Excersize3mardown.md 
+2.1) An **int** is a 16bit integer, a **long** is a 32bit integer, and a **short** is a 16bit integer.
+short <= int
+A **signed type** represents postive or negative numbers, and **unsigned type** represent values
+that are >= 0.
+A float has a precision of 6 significant digits, a double has a precision of 10 significant digits.
+
+2.2) For rate i would use a float becuase it typically doesnt use more than really 2 or 3 significant digits.
+for prinicpal i would use double to make sure its exactly accurate, and payment i would 
+use a float becuase money doesn't have quantums more than 2 significant digits anyway.
+
+2.3)
+```unsigned u = 10, u2 = 42;
+std::cout << u2 - u << std::endl; \\ 32
+std::cout << u - u2 << std::endl; \\ 4294967264
+int i = 10, i2 = 42;
+std::cout << i2 - i << std::endl; \\ 32
+std::cout << i - i2 << std::endl; \\ -32
+std::cout << i - u << std::endl; \\ 0
+std::cout << u - i << std::endl; \\ 0
+```
+
+2.10) global_str = empty string object
+global_int = 0
+local_int = undefined
+local_str = empty string object
+
+2.12) a, c, and d
+
+2.13) 
+```int i = 42;
+int main()
+{
+int i = 100;
+int j = i; \\ 100
+}
+
+```
+
+2.14) yes:
+```
+int i = 100, sum = 0;
+for (int i = 0; i != 10; ++i)
+sum += i;
+std::cout << i << " " << sum << std::endl; \\ 100 45
+
+```
+
+2.17) 
+```int i, &ri = i;
+i = 5; ri = 10;
+std::cout << i << " " << ri << std::endl; \\ 10 10
+```
+
+2.27) (a) invalid - nonconst reference cannot be initialized to a literal
+(b - e) good. (f) invalid - const stated twice, and it must be initialized when defined.
+
+2.28) (a) invalid - * makes a pointer and a const pointer must be initialized
+(b) same as (a). (c) invalid - ic isn't initilized. 
+(d) same as (a). (e) good - initilized pointer to int p
+
+
+Raffi@Galaxy-J7-Refine Excersize3 % cat markdown.md 
+
+1) Headings - add number of # for header type: # = <h1></h1>, ##  <h2></h2>...
+
+2) Paragraphs - just write the paragraph with a blank new line to distinguish
+
+3) breakline - add newline and continue to write (no blank new line)
+
+4) Bold - add 2 ** or __ : **bold** __bold__
+
+5) Italic - add 1 * or _ : *italic* _italic_
+
+6) Both 4 and 5 - add 3 *** or ___ : ***both*** ___both___
+
+7) ordered lists  - 
+add number followed by period: 
+1. first
+2. second
+3. third
+
+8) Unordered lists - use -, *, or + in front of each element:
++ first
++ second
++ third
+
+9) To denote that something is code use `: `code`
+
+10) Code blocks - to create them indent everyline by at least 4 spaces or one tab
+
+11) creating url links - enclose link in <>: <google.com>
+
+12) fenced code block - use ``` and close it by ```
+
+13) Tables -  To add a table, use three or more --- to create each column’s header,
+and use | to separate each column, add | on beginning and end of each row:
+| title.      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+Raffi@Galaxy-J7-Refine Excersize3 % cat gitCommands.md 
+
+| git command      | Execution | 
+| ----------- | ----------- | 
+| track file      | git add | 
+| record changes   | git commit |
+| publish changes | git push |
+Raffi@Galaxy-J7-Refine Excersize3 % exit
 Saving session...
-...copying shared history...
 ...saving history...truncating history files...
 ...completed.
-Deleting expired sessions...       1 completed.
 
-Script done, output file is typescript
-LS
-answers.md	answers.txt	gitCommands.md	markdown.md	typescript
-Script started, output file is typescript
-Restored session: Wed Sep 21 21:08:46 EDT 2022
+
