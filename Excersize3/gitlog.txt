@@ -2,7 +2,7 @@
 Script started, output file is typescript
 Raffi@Yaels-MacBook-Pro Excersize3 % git add answers.txt answers.md markdown.md gitCommands.md 
 Raffi@Yaels-MacBook-Pro Excersize3 % git commit gitCommands.md answers.txt markdown.md answers.md -m commiting files
-error: pathspec 'files' did not match any file(s) known to git
+eror: pathspec 'files' did not match any file(s) known to git
 Raffi@Yaels-MacBook-Pro Excersize3 % git commit gitCommands.md answers.txt markdown.md answers.md -m "commiting files"
 [master 527259c] commiting files
  Committer: Raffi Levy <Raffi@Yaels-MacBook-Pro.local>
