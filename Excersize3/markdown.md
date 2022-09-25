@@ -1,3 +1,4 @@
+
 1) Headings - add number of # for header type: # = <h1></h1>, ##  <h2></h2>...
 
 2) Paragraphs - just write the paragraph with a blank new line to distinguish

@@ -1,4 +1,3 @@
-
 2.1) An **int** is a 16bit integer, a **long** is a 32bit integer, and a **short** is a 16bit integer.
 short <= int
 A **signed type** represents postive or negative numbers, and **unsigned type** represent values

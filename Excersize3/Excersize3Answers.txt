@@ -3,7 +3,7 @@ short <= int
 A signed type represents postive or negative numbers, and unsigned type represent values
 that are >= 0.
 A float has a precision of 6 significant digits, a double has a precision of 10 significant digits.
-
+ 
 2.2) For rate i would use a float becuase it typically doesnt use more than really 2 or 3 significant digits.
 for prinicpal i would use double to make sure its exactly accurate, and payment i would 
 use a float becuase money doesn't have quantums more than 2 significant digits anyway.
