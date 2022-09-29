@@ -1,15 +1,21 @@
-lab2: Task2-1_5 Task2_while Task2_for
+lab4: nutrition inflation e3_17 e3_23 e4_28
 
-Task2-1_5: task2-1_5.cpp
-        g++ -o task2-1_5 Task2-1_5.cpp
-        ./Task2-1_5
+nutrition: nutrition.cpp
+        g++ -o nutrition nutrition.cpp
+        ./nutrition
 
-Task2_while: Task2_while.cpp
-        g++ -o Task2_while Task2_while.cpp
+inflation: inflation.cpp
+        g++ -o inflation inflation.cpp
         ./Task2_while
-Task2_for: Task2_for.cpp
-        g++ -o Task2_for Task2_for.cpp
-        ./Task2_for
+e3_17: 3_17.cpp
+        g++ -o 3_17 3_17.cpp
+        ./3_17
+e3_23: 3_23.cpp
+        g++ -o 3_23 3_23.cpp
+        ./3_23
+e4_28: 4_28.cpp
+        g++ -o 4_28 4_28.cpp
+        ./4_28
 clean:
-        rm Task2-1_5 Task2_while Task2_for
+        rm inflation nutrition 3_17 4_28 3_23
 
