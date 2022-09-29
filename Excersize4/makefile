@@ -1,21 +1,21 @@
 lab4: nutrition inflation e3_17 e3_23 e4_28
 
 nutrition: nutrition.cpp
-        g++ -o nutrition nutrition.cpp
-        ./nutrition
+\tg++ -o nutrition nutrition.cpp
+\t./nutrition
 
 inflation: inflation.cpp
-        g++ -o inflation inflation.cpp
-        ./Task2_while
+\tg++ -o inflation inflation.cpp
+\t./Task2_while
 e3_17: 3_17.cpp
-        g++ -o 3_17 3_17.cpp
-        ./3_17
+\tg++ -o 3_17 3_17.cpp
+\t./3_17
 e3_23: 3_23.cpp
-        g++ -o 3_23 3_23.cpp
-        ./3_23
+\tg++ -o 3_23 3_23.cpp
+\t./3_23
 e4_28: 4_28.cpp
-        g++ -o 4_28 4_28.cpp
-        ./4_28
+\tg++ -o 4_28 4_28.cpp
+\t./4_28
 clean:
-        rm inflation nutrition 3_17 4_28 3_23
+\trm inflation nutrition 3_17 4_28 3_23
 
