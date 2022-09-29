@@ -22,7 +22,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - run: cd Excersize4/
       # Runs a single command using the runners shell
       - name: compile
-        run: make
+        run: make lab4
