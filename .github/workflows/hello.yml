@@ -1,0 +1,8 @@
+name: Hello World
+on: [push]
+jobs: 
+  HelloWorld:
+    runs-on:  ubuntu-latest
+    name: create prog
+    run: g++ ./CISC3142/hello.cpp && ./a.out
+    
