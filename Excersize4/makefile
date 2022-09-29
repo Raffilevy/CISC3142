@@ -3,7 +3,6 @@ lab4: nutrition inflation e3_17 e3_23 e4_28
 nutrition: nutrition.cpp
 	g++ -o nutrition nutrition.cpp
 	./nutrition
-
 inflation: inflation.cpp
 	g++ -o inflation inflation.cpp
 	./inflation
