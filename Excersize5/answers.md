@@ -13,7 +13,7 @@ The postfix increment operator increases the operand and return a copy of the op
 
 #4.34
 
-a - **fval** is converted to a boolean
-b - **ival** is converted to a float, then added to **fval**, the result is converted to double.
-c - **cval** is converted to an int and then multiplied by **ival**, the result is converted to a double then added to **dval**
+a. **fval** is converted to a boolean
+b. **ival** is converted to a float, then added to **fval**, the result is converted to double.
+c. **cval** is converted to an int and then multiplied by **ival**, the result is converted to a double then added to **dval**
 
