@@ -1,5 +1,5 @@
 lab7: Rect
 
-Rect: sumOfDigits.cpp
+Rect: Rect.cpp
 	g++ -o Rect Rect.cpp
 	./Rect
