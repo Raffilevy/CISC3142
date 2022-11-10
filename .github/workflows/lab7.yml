@@ -28,4 +28,4 @@ jobs:
       - uses: actions/checkout@v3
       # Runs a single command using the runners shell
       - name: compile
-        run: make lab7
+        run: g++ -o Rect Rect.cpp && ./Rect
