@@ -54,6 +54,6 @@ class Rectangle {
 			cout<<"same area";
 		else
 			cout<<"not same area";
-		return 1;
+		return 0;
 		}
 
