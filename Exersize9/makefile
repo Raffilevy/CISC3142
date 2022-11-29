@@ -1,4 +1,4 @@
-lab9: Rect
+lab9: Excersize9
 
 Excersize9: Excersize9.cpp
 	g++ -o Excersize9 Excersize9.cpp
